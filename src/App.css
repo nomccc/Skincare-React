@@ -1,0 +1,21 @@
+input[type=file]::file-selector-button{
+  background-color: #0D6EFD;
+  color: white;
+  }
+  
+  .invalid-feedback{
+    color: red;
+    border-color: red;
+    background-color: #fde8ec;
+    padding: 10px;
+    display: block;
+  }
+  
+  .error{
+    color: red;
+    display: block  ;
+  }
+  
+  .success{
+    color: green;
+  }

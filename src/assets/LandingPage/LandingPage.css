@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+/* Hero section */
+.hero {
+  background-color: #37517e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4% 5% 4% 5%;
+}
+
+.hero:hover {
+  background-image: linear-gradient(#37517e, #3e5884);
+}
+
+.hero p {
+  color: rgb(197, 197, 197);
+  font-size: 24px;
+}
+
+.bd{
+  width: 450px;
+}
+
+#heroTitle{
+  color: white; font-size: 48px; margin-bottom: 0;
+}
+
+#getStarted {
+  background-color: #47b2e4;
+  width: 147.36px;
+  height: 45px;
+  border-style: none;
+  /* padding: 12px 24px 12px 24px; */
+  border-radius: 25px;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0px 5px 10px 0px rgb(36, 84, 118);
+}
+
+.heroButton a:hover {
+  font-size: 17px;
+  transition: 0.75s;
+}
+
+#getStarted:hover {
+  background-color: rgb(126, 213, 253);
+  transition: 0.75s;
+  font-weight: bold;
+  width: 146px;
+  font-size: 17px;
+  box-shadow: 0px 5px 10px 0px rgb(16, 54, 81);
+  /* color: #37517E; */
+}
+
+.heroButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.heroButton a {
+  padding: 0 5% 0 10%;
+  color: white;
+  text-decoration: none;
+}
+
+/* join part */
+.joinPart {
+  background-color: #f3f5fa;
+  padding: 3% 0 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinPart h1 {
+  color: #37517e;
+  margin: 0;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.joinPart p {
+  color: #444444;
+  font-size: 15px;
+}
+
+.joinPart input[type="text"] {
+  width: 570px;
+  height: 30px;
+  border-radius: 25px;
+  border-style: none;
+  box-shadow: -5px 5px 15px 0px rgb(217, 217, 217);
+}
+
+.joinPart button {
+  background-color: #47b2e4;
+  height: 32px;
+  border-radius: 25px;
+  border-style: none;
+  padding: 0px 20px 0px 20px;
+  color: white;
+  /* position: absolute;
+  /* margin-right: 80%; */
+  /* left: 70%; */
+  box-shadow: 0px 5px 10px 0px rgb(217, 217, 217);
+}
+
+.joinPart button:hover {
+  background-color: rgb(126, 213, 253);
+  transition: 0.75s;
+  box-shadow: 0px 5px 10px 0px rgb(182, 182, 182);
+  /* font-weight: lighter; */
+  /* width: 146px; */
+  /* font-size: 13px ; */
+}
+
+/* footer part */
+.information {
+  display: flex;
+  color: #5e5e5e;
+  flex-direction: row;
+  padding: 0 5% 0 5%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.informationAddress {
+  font-size: 14px;
+}
+
+.informationLinks {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.informationLinks a {
+  text-decoration: none;
+  line-height: 28px;
+  color: #5e5e5e;
+}
+
+.informationService {
+  font-size: 14px;
+}
+
+.informationSNS {
+  width: 30%;
+  font-size: 14px;
+}
+
+.informationLinks h2,
+.informationService h2,
+.informationSNS h2 {
+  font-size: 16px;
+  color: #37517e;
+}
+
+.circle {
+  background-color: #47b2e4;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.circleSNS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.copyright {
+  font-size: 14px;
+  padding: 1% 5% 1% 5%;
+  background-color: #37517e;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+
+  header{
+    width: 100%;
+  }
+
+  .hero{
+    flex-direction: column;
+    /* width: 100%; */
+  }
+
+  .heroArticle h1{
+    font-size: 20px;
+  }
+
+  #heroTitle{
+    font-size: 40px;
+  }
+
+  .hero p{
+    font-size: 16px;
+  }
+
+  .bd{
+    width: 300px;
+  }
+
+  #getStarted{
+    width: 110px;
+    font-size: 13px;
+  }
+
+  .heroButton a{
+    font-size: 13px;
+  }
+
+  .heroButton{
+    margin-bottom: 30px;
+  }
+
+
+/* join part */
+  .joinPart{
+    width: 100%;
+  }
+
+.joinPart input[type="text"]{
+  width: 60%;
+}
+
+.joinPart p{
+  padding: 0 5% 0 5%;
+}
+
+.informationAddress{
+  font-size: 10px;
+}
+
+.informationLinks {
+  font-size: 10px ;
+}
+
+.informationService{
+  font-size: 10px;
+}
+
+.informationSNS{
+  font-size: 10px;
+}
+
+.circle{
+  width: 15px;
+  height: 15px;
+}
+
+  .circleSNS{
+    width: 70%;
+  }
+
+}
